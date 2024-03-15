@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <ul class="equal-size">
+                <li id="logoid">
+                    <img src="/img/logo.png" alt="Logo da APP">
+                </li>
+                <li id="nameId">
+                    <h1>Aprovado ou Não ??</h1>
+                </li>
+            </ul>        
+        </header>
+        <section class="maincontent">
+            <div class="cont-main">
+                <div class="formAdicao">
+                    <form>
+                        <ul>
+                            <li>
+                                <input  id="inputA" type="text" name="atividade" placeholder="Adicionar Atividade">
+                            </li>
+                            <li>
+                                <input id="inputB" type="text" name="nota" placeholder="Nota">
+                            </li>
+                            <li>
+                                <button id="submit" type="submit" name="adicionar">Adicionar</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="tabAtv">
+                    <h2>Tabela de Atividades</h2>
+                        <table class="tabela">
+                            <thead>
+                                <tr>
+                                    <th id="nameAtv">Descrição</th>
+                                    <th id="notaId">Nota</th>
+                                    <th id="apvId">Situação</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                               
+                                
+                            </tbody>
+                        </table>
+                        <button id="limparTabela" style="display: none;">Limpar Tabela</button>
+
+
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

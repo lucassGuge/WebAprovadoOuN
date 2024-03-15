@@ -1,0 +1,132 @@
+
+/* CSS padrão */
+body {
+    display: flex;
+    background-color: #e0d8c6;
+    max-width: 1366px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.container {
+    padding: 0.2em;
+    margin: 0.1em;
+    background-color:  #e0d8c6;
+    width: 100%;
+    
+}
+
+
+/* Cabeçalho */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: o;
+    
+}
+
+li {
+    padding: 0.5em;
+    
+}
+
+
+.cabecalho {
+    
+    padding: 0.2em;
+    margin: 0em;
+    border: solid 0.2em black;
+}
+.equal-size {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 1;
+}
+
+#nameId {
+    flex: 1;
+}
+
+
+/* Input e SUbmit */
+input{
+    text-align: center;
+    padding: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#inputA {
+    max-width: 20em;
+    
+}
+
+#inputB {
+    max-width: 4em;
+}
+
+#submit, #limparTabela {
+    width: 100%;
+    background-color: #6d8698;
+    padding: 0.5em;
+    border-radius: 0.3em;
+}
+
+/* Conteudo principal */
+.cont-main {
+    display: flexbox;
+    flex-direction: column;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+
+.formAdicao,
+.tabAtv {
+    margin-top: 0.2em;
+    border: solid 0.2em black;
+    font-weight: 700;
+}
+
+
+/* tabela */
+#nameAtv,
+#apvId,
+#notaId {
+    width: 100%; 
+}
+
+
+tr {
+    padding: 0.2em;       
+}
+th {
+    border: solid 0.1em black;
+    padding: 1em;
+}
+
+th,
+td {
+    border: solid 0.1em black;
+    padding: 0.5em;
+    text-align: center;
+}
+
+
+
+
+/* Textos */
+
+h2 {
+    text-align: center; 
+}
+
+
